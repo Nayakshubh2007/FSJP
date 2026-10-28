@@ -1,0 +1,3 @@
+Default sum: 15
+Integer sum: 20
+Float sum: 10.0

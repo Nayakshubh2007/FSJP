@@ -1,0 +1,8 @@
+Enter student name: Rahul Sharma
+Enter roll number: 12
+Enter marks: 87.5
+
+Student Details
+Name: Rahul Sharma
+Roll Number: 12
+Marks: 87.5

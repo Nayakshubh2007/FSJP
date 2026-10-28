@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automatic Background Change</title>
+<style>
+body { font-family: Arial, sans-serif; text-align: center; padding-top: 100px; transition: background-color 0.5s; }
+</style>
+</head>
+<body>
+    <h2>Background Color Changes Automatically</h2>
+    <p>The background color changes every 5 seconds.</p>
+    <script>
+        const colors = ["#fce4ec", "#e3f2fd", "#e8f5e9", "#fff3e0", "#ede7f6"];
+        let index = 0;
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = colors[index];
+            index = (index + 1) % colors.length;
+        }
+        changeBackgroundColor();
+        setInterval(changeBackgroundColor, 5000);
+    </script>
+</body>
+</html>

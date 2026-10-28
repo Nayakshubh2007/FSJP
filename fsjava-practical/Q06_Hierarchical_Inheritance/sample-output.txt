@@ -1,0 +1,3 @@
+Student: Amit, Age: 19, Roll No: 10, Course: Computer Engineering
+Teacher: Mehta, Age: 40, Subject: Java Programming
+Administrator: Patil, Age: 45, Department: Academics
